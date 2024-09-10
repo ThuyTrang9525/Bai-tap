@@ -16,13 +16,13 @@ function myFunction1(){
             break;
         }
         case 2:{
-            sum= (se1 + se2)/3;
+            sum= (se1 + se2*2)/3;
             sum= parseFloat(sum);
             document.getElementById("result").value = sum;
             break;
         }
         case 3:{
-            sum= (se1 + se2)/4;
+            sum= (se1 + se2*3)/4;
             sum= parseFloat(sum);
             document.getElementById("result").value = sum;
             break;
