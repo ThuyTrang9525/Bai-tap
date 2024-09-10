@@ -36,21 +36,25 @@ function myFunction1(){
     } else if (sum >8)
     {
         document.getElementById('display').innerHTML = "Hoc sinh gioi";
-        document.getElementById('display').style.color = "blue"
+        document.getElementById('display').style.color = "blue";
+        document.getElementById('display').style=`padding:30px, size:30px`;
     }
     else if (sum >6.5 )
     {
         document.getElementById('display').innerHTML = "Hoc sinh kha";
-        document.getElementById('display').style.color = "orange"
+        document.getElementById('display').style.color = "orange";
+        document.getElementById('display').style=`padding:30px, size:30px`;
     }
     else if (sum >5 )
     {
         document.getElementById('display').innerHTML = "Hoc sinh trung binh";
-        document.getElementById('display').style.color = "yellow"
+        document.getElementById('display').style.color = "yellow";
+        document.getElementById('display').style=`padding:30px, size:30px`;
     } else
     {
         document.getElementById('display').innerHTML = "Hoc sinh yeu";
-        document.getElementById('display').style.color = "black"
+        document.getElementById('display').style.color = "black";
+        document.getElementById('display').style=`padding:30px, size:30px`;
     }
 }
 
